@@ -1,0 +1,6 @@
+\select@language {french}
+\contentsline {section}{\numberline {0}Introduction}{2}{section.0}
+\contentsline {section}{\numberline {1}M\IeC {\'e}thode exp\IeC {\'e}rimentale}{2}{section.1}
+\contentsline {section}{\numberline {2}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{2}{section.2}
+\contentsline {section}{\numberline {3}Discussion}{2}{section.3}
+\contentsline {section}{\numberline {4}Conclusion}{2}{section.4}
