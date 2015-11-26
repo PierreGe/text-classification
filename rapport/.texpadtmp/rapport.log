@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  23 NOV 2015 11:55
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 NOV 2015 15:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -9,8 +9,8 @@ LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, german-x-2012-05-30, ngerman-x-2012-05-30, afrikaans, ancientgreek, ibycus, arabic, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danish, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnish, french, friulan, galician, german, ngerman, swissgerman, monogreek, greek, hungarian, icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, oriya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, polish, portuguese, romanian, romansh, russian, sanskrit, serbian, serbianc, slovak, slovenian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded.
 (/usr/local/texlive/2012/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size10.clo
-File: size10.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/local/texlive/2012/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@section=\count80
@@ -614,7 +614,7 @@ Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 282.
 )
 \Hy@SectionHShift=\skip46
-) (/Users/pierre/Workspace/ai-tp2/rapport/.texpadtmp/rapport.aux)
+) (/Users/pierre/Workspace/aitp2/rapport/.texpadtmp/rapport.aux)
 \openout1 = `rapport.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
@@ -659,12 +659,12 @@ Package frenchb.ldf Warning: OT1 encoding should not be used for French.
 * \topmargin=-15.36449pt
 * \headheight=0.0pt
 * \headsep=0.0pt
-* \topskip=10.0pt
+* \topskip=11.0pt
 * \footskip=0.0pt
-* \marginparwidth=57.0pt
-* \marginparsep=11.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -710,7 +710,7 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 15.
 LaTeX Info: Redefining \pageref on input line 15.
 LaTeX Info: Redefining \nameref on input line 15.
- (/Users/pierre/Workspace/ai-tp2/rapport/.texpadtmp/rapport.out) (/Users/pierre/Workspace/ai-tp2/rapport/.texpadtmp/rapport.out)
+ (/Users/pierre/Workspace/aitp2/rapport/.texpadtmp/rapport.out) (/Users/pierre/Workspace/aitp2/rapport/.texpadtmp/rapport.out)
 \@outlinefile=\write4
 \openout4 = `rapport.out'.
 
@@ -721,7 +721,14 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 [1
 
-{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/pierre/Workspace/ai-tp2/rapport/.texpadtmp/rapport.toc)
+{/usr/local/texlive/2012/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (/Users/pierre/Workspace/aitp2/rapport/.texpadtmp/rapport.toc
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 4.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 4.
+)
 \tf@toc=\write5
 \openout5 = `rapport.toc'.
 
@@ -730,33 +737,80 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.40 
       [1]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 53.
- [2]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 53.
- (/Users/pierre/Workspace/ai-tp2/rapport/.texpadtmp/rapport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 53.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 53.
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input line 45.
+
+Overfull \hbox (1.91753pt too wide) in paragraph at lines 45--45
+[][][][]\OT1/cmr/m/n/10.95 Pourquoi 
+ []
+
+
+Overfull \hbox (1.91753pt too wide) in paragraph at lines 45--45
+[][][][]\OT1/cmr/m/n/10.95 Pourquoi 
+ []
+
+
+Overfull \hbox (1.91753pt too wide) in paragraph at lines 45--45
+[][][][]\OT1/cmr/m/n/10.95 Pourquoi 
+ []
+
+
+Overfull \hbox (1.91753pt too wide) in paragraph at lines 45--45
+[][][][]\OT1/cmr/m/n/10.95 Pourquoi 
+ []
+
+<images/part2chisq.png, id=76, 578.16pt x 433.62pt>
+File: images/part2chisq.png Graphic file (type png)
+ <use images/part2chisq.png>
+Package pdftex.def Info: images/part2chisq.png used on input line 50.
+(pdftex.def)             Requested size: 341.43306pt x 256.07178pt.
+
+Overfull \hbox (1.91753pt too wide) in paragraph at lines 68--68
+[][][][]\OT1/cmr/m/n/10.95 Pourquoi 
+ []
+
+
+Overfull \hbox (1.91753pt too wide) in paragraph at lines 68--68
+[][][][]\OT1/cmr/m/n/10.95 Pourquoi 
+ []
+
+
+Overfull \hbox (1.91753pt too wide) in paragraph at lines 68--68
+[][][][]\OT1/cmr/m/n/10.95 Pourquoi 
+ []
+
+
+Overfull \hbox (1.91753pt too wide) in paragraph at lines 68--68
+[][][][]\OT1/cmr/m/n/10.95 Pourquoi 
+ []
+
+[2 <./images/part2chisq.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 132.
+ [3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 132.
+ (/Users/pierre/Workspace/aitp2/rapport/.texpadtmp/rapport.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 132.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 132.
 Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: <no file>.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 53.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 132.
  ) 
 Here is how much of TeX's memory you used:
- 15047 strings out of 493488
- 268671 string characters out of 3141326
- 342076 words of memory out of 3000000
- 18077 multiletter control sequences out of 15000+200000
- 5457 words of font info for 20 fonts, out of 3000000 for 9000
+ 15168 strings out of 493488
+ 270921 string characters out of 3141326
+ 354283 words of memory out of 3000000
+ 18178 multiletter control sequences out of 15000+200000
+ 8497 words of font info for 30 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
- 63i,5n,57p,447b,383s stack positions out of 5000i,500n,10000p,200000b,50000s
-</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on /Users/pierre/Workspace/ai-tp2/rapport/.texpadtmp/rapport.pdf (3 pages, 64797 bytes).
+ 63i,9n,74p,447b,680s stack positions out of 5000i,500n,10000p,200000b,50000s
+</usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on /Users/pierre/Workspace/aitp2/rapport/.texpadtmp/rapport.pdf (4 pages, 104097 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 61 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 119 PDF objects out of 1000 (max. 8388607)
+ 103 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 
