@@ -1,12 +1,18 @@
 \select@language {french}
-\contentsline {section}{\numberline {1}Base}{2}{section.1}
+\contentsline {section}{\numberline {1}M\IeC {\'e}thode de base}{2}{section.1}
+\contentsline {subsection}{\numberline {1.1}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{2}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Reuters-21578}{2}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Ohsumed}{2}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2}Discussion}{2}{subsection.1.2}
 \contentsline {section}{\numberline {2}Selection d'attributs}{2}{section.2}
-\contentsline {subsection}{\numberline {2.1}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{2}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Discussion et menaces \IeC {\`a} la validit\IeC {\'e}}{2}{subsection.2.2}
-\contentsline {section}{\numberline {3}Stemming}{2}{section.3}
-\contentsline {subsection}{\numberline {3.1}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{2}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Discussion}{3}{subsection.3.2}
-\contentsline {section}{\numberline {4}Evaluation des algos}{3}{section.4}
-\contentsline {subsection}{\numberline {4.1}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{3}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Discussion}{3}{subsection.4.2}
-\contentsline {section}{\numberline {5}Exploration}{3}{section.5}
+\contentsline {subsection}{\numberline {2.1}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{3}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Discussion et menaces \IeC {\`a} la validit\IeC {\'e}}{3}{subsection.2.2}
+\contentsline {section}{\numberline {3}Stemming}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{3}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Discussion}{4}{subsection.3.2}
+\contentsline {section}{\numberline {4}Evaluation des algos}{4}{section.4}
+\contentsline {subsection}{\numberline {4.1}R\IeC {\'e}sultats exp\IeC {\'e}rimentaux}{4}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1}Reuters-21578}{4}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Ohsumed}{4}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Discussion}{4}{subsection.4.2}
+\contentsline {section}{\numberline {5}Exploration}{4}{section.5}

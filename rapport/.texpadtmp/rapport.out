@@ -1,11 +1,22 @@
-\BOOKMARK [1][-]{section.1}{Base}{}% 1
-\BOOKMARK [1][-]{section.2}{Selection d'attributs}{}% 2
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{M\351thode de base}{}% 2
 \BOOKMARK [2][-]{subsection.2.1}{R\351sultats exp\351rimentaux}{section.2}% 3
-\BOOKMARK [2][-]{subsection.2.2}{Discussion et menaces \340 la validit\351}{section.2}% 4
-\BOOKMARK [1][-]{section.3}{Stemming}{}% 5
-\BOOKMARK [2][-]{subsection.3.1}{R\351sultats exp\351rimentaux}{section.3}% 6
-\BOOKMARK [2][-]{subsection.3.2}{Discussion}{section.3}% 7
-\BOOKMARK [1][-]{section.4}{Evaluation des algos}{}% 8
-\BOOKMARK [2][-]{subsection.4.1}{R\351sultats exp\351rimentaux}{section.4}% 9
-\BOOKMARK [2][-]{subsection.4.2}{Discussion}{section.4}% 10
-\BOOKMARK [1][-]{section.5}{Exploration}{}% 11
+\BOOKMARK [3][-]{subsubsection.2.1.1}{Reuters-21578}{subsection.2.1}% 4
+\BOOKMARK [3][-]{subsubsection.2.1.2}{Ohsumed}{subsection.2.1}% 5
+\BOOKMARK [2][-]{subsection.2.2}{Analyse et discussion}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Selection d'attributs}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{R\351sultats exp\351rimentaux}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{Test 1}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Test 2}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{Analyse, discussion et menaces \340 la validit\351}{section.3}% 11
+\BOOKMARK [1][-]{section.4}{Stemming}{}% 12
+\BOOKMARK [2][-]{subsection.4.1}{R\351sultats exp\351rimentaux}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.2}{Analyse et discussion}{section.4}% 14
+\BOOKMARK [1][-]{section.5}{Evaluation des algos}{}% 15
+\BOOKMARK [2][-]{subsection.5.1}{R\351sultats exp\351rimentaux}{section.5}% 16
+\BOOKMARK [3][-]{subsubsection.5.1.1}{Reuters-21578}{subsection.5.1}% 17
+\BOOKMARK [3][-]{subsubsection.5.1.2}{Ohsumed}{subsection.5.1}% 18
+\BOOKMARK [2][-]{subsection.5.2}{Analyse et discussion}{section.5}% 19
+\BOOKMARK [1][-]{section.6}{Exploration}{}% 20
+\BOOKMARK [2][-]{subsection.6.1}{Possibilit\351s non-explor\351}{section.6}% 21
+\BOOKMARK [1][-]{section.7}{Conclusion}{}% 22

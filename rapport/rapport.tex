@@ -39,6 +39,9 @@
 
 %\pagebreak
 
+\section{Introduction}
+Dans le cadre du cours d'intelligence artificielle, il nous est demandé d'utilisé un logiciel spécialisé dans l'apprentissage machine dans le but de réaliser un classifieur de texte. Deux ensembles de données sont fournis Reuters et Ohsumed.
+
 \section{Méthode de base}
 
 Il est demandé, pour trouver un point de base pour effectuer des comparaisons d'analyser la classification avec le classifieur Bayes Naif et une validation croisé 10-fold.
@@ -81,32 +84,32 @@ Incorrectly Classified Instances      3463               64.368  %
 Weighted Avg.    0.356     0.093      0.608     0.356     0.364      0.749
 \end{verbatim}
 
-\subsection{Discussion}
+\subsection{Analyse et discussion}
 
 Pour analyser les résultats, définissons quelques concepts :
 \begin{itemize}
-	\item Validation croisé : Pour éviter le sur-apprentissage (apprendre "par coeur" les données) ont divise l'ensemble d'entrainement en plusieurs parties, une sur laquelle on effectue le calcul de performance de l'apprentissage, les autres sur lequel on effectue l'apprentissage en lui-même. Cependant, en faisant ça on perd des données pour l'apprentissage car une partie est utilisé pour le test. C'est pourquoi on répète cette opération x fois avec un ensemble de test différent a chaque fois. Cela permet de raffiner l'apprentissage a chaque fois.
+	\item Validation croisé : Pour éviter le sur-apprentissage (apprendre "par coeur" les données) ont divise l'ensemble d'entrainement en plusieurs parties, une sur laquelle on effectue le calcul de performance de l'apprentissage, les autres sur lequels on effectue l'apprentissage en lui-même. Cependant, en faisant ça on perd des données pour l'apprentissage car une partie est utilisé pour le test. C'est pourquoi on répète cette opération x fois avec un ensemble de test différent à chaque fois. Cela permet de raffiner l'apprentissage.
 	\item Erreur de test : L'erreur de test est le pourcentage d'article mal classifié sur l'ensemble de test. On peut considérer cette erreur comme l'erreur de généralisation.
-	\item Précision : La précision est le ratio de vrai positif sur la somme du nombre de faux et de vrai positif. En d'autres terme, le ratio de correctement identifié parmis ceux identifié.
-	\item Rappel : Le rappel est le ratio de vrai positif sur le nombre d'element de l'ensemble. En d'autres terme, c'est égale au nombre d'articles correctement classifié.
+	\item Précision : La précision est le ratio de vrai positif sur la somme du nombre de faux et de vrai positif. En d'autres termes, le ratio de correctement identifié parmi ceux identifié.
+	\item Rappel : Le rappel est le ratio de vrai positif sur le nombre d'element de l'ensemble. En d'autres termes, c'est égale au nombre d'articles correctement classifié.
 \end{itemize}
 
-Ici, on remarque que NaiveBayes semble classifier avec beaucoup plus de facilité l'ensemble de donnée de Reuters que l'ensemble de donnée Ohsumed.
+Ici, on remarque que l'algorithme d'apprentissage NaiveBayes semble classifier avec beaucoup plus de facilité l'ensemble de donnée de Reuters que l'ensemble de donnée Ohsumed.
 
-\todo{bullshiter un peu}
+Cela pourrait par exemple s'expliquer que les dictionnaires de mots associés à chaque classe sont plus similaire dans le deuxième cas. En effet, Naive Bayes, se base sur le maximum de vraisemblance, et donc plus les termes utilisés pour chaque article diffèrent, plus la classification a de chance d'aboutir.
 
 \section{Selection d'attributs}
 
-La selection d'attribut pourrait permettre d'accélérer les algorithme et peut-être améliorer l'apprentissage en éliminant des attributs non pertinent. Regardons son effet :
+La sélection d'attribut pourrait permettre d'accélérer les algorithme et peut-être améliorer l'apprentissage en éliminant des attributs non pertinent. Regardons son effet :
 
 \subsection{Résultats expérimentaux}
-
+Nous avons réalisé deux tests différents.
 \subsection{Test 1}
-Ce test est celui demandé dans l'énoncé. Il consiste a aller dans "Attribute Evaluator", choisir la méthode ChiSquarred, et dans "Search Method" la méthode Ranker qui ordonne les attributs selon leur valeur et en précisant un nombre à garder.
+Ce test est celui demandé dans l'énoncé du TP. Il consiste à aller dans "Attribute Evaluator", choisir la méthode ChiSquarred, et dans "Search Method" la méthode Ranker qui ordonne les attributs selon leur valeur et en précisant un nombre à garder. Et ensuite, appliquer le classifieur.
 \begin{figure}[H]
 	\includegraphics[width=7cm]{images/part2.png} 
 	\centering
-	\caption{ChiSquarred method with Ohsumed dataset test 1}
+	\caption{ChiSquarred method with Ohsumed dataset}
 	\label{fig:comp}
 \end{figure}
 
@@ -116,10 +119,11 @@ Ce test consiste a suivre les indications de la documentation Weka concernant la
 \begin{figure}[H]
 	\includegraphics[width=7cm]{images/part2b.png} 
 	\centering
-	\caption{InfoGain method with Ohsumed dataset test 1}
+	\caption{InfoGain method with Reuters dataset}
 	\label{fig:comp}
 \end{figure}
 
+D'autres tests ont été effectués en échangeant les algo de selection et l'ensemble de donnée. La courbe ne changeant pas d'allure, ces résultats ont été omis.
 
 \subsection{Analyse, discussion et menaces à la validité}
 
@@ -164,7 +168,8 @@ La précision n'est pas indiqué ici, elle varie de manière similaire au rappel
 Pour Ohsumed, on remarque que, dans la plupart des cas, le nombre d'attribut bien classifié augmente lorsqu'on utilise la technique de stemming. 
 
 Pour Reuters, on remarque que le stemming n'a pas grande influence sur les résultats.
-\todo{discutons}
+
+Le stemming semble donc être efficace pour certains ensembles de données et inutile voir contre-performant pour d'autres. 
 
 \section{Evaluation des algos}
 
@@ -206,13 +211,30 @@ Pour Reuters, on remarque que le stemming n'a pas grande influence sur les résu
 \end{tabular}
 \end{center}
 
-\subsection{Discussion}
+\subsection{Analyse et discussion}
 
-\todo{discussion}
+La taille des deux ensembles de donnée est raisonnable et donc il possible d'utiliser des classifieurs "intelligent". Ces algorithmes ont une complexité assez élever et donc prendrait beaucoup de temps à s'exécuter sur de grands ensembles.
+
+Comme prévu l'algorithme Machine a Vecteur de Support donne d'excellent résultat. L'algorithme basé sur les arbres de décision donne aussi d'excellent résultat.
+
+Il n'est pas possible de comparer nos résultats avec ceux que l'on peut trouver dans la littérature scientifique car on remarque que les ensembles fournis ont été tronqué. En effet, par exemple, Reuters-21578 ne contient pas 21578 éléments mais un millier.
+
+Il semble qu'il n'y ait pas d'algorithme idéal pour la classification de texte mais plutôt un algorithme pour un ensemble de texte.
 
 \section{Exploration}
 
-Nous allons désormais exploré les différentes possibilités du logiciel et les différents algorithmes parmis ceux généralement prescrit pour la classification de document.
+Pour cette catégorie, nous pensons que explorer de manière exhaustive l'ensemble des algorithmes pour obtenir un bon score sans les comprendre n'a pas grand intérêt. Nous allons privilégié plutôt une exploration plus haut niveau de l'ensemble des possibilité du logiciel \todo{reformuler cette phrase}
+\subsection{Possibilités non-exploré}
+Il y a plusieurs technique d'apprentissage machine qui sont disponibles dans le logiciel.
+\begin{itemize}
+	\item 
+\end{itemize}
+
+
+
+\section{Conclusion}
+
+Ce bref document montre qu'il n'y a pas de technique universelle pour classifier des textes mais bien plusieurs approches à explorer pour raffiner la classification. Ces approches sont, entres autres, la selection d'attributs, le stemming, et un choix d'algorithme pertinent au problème.
 
 
 
